@@ -29,6 +29,7 @@ Or, if you installed it to "/usr/bin", remove the script from the binaries direc
     gio trash --force /usr/bin/cpu-speed.bash
 
 ## Updates
+    Fixed a few lines and Nudo actually uses Root's files.
     Created a README.MD.
 ## Queue
     Clean up code and comment.
