@@ -32,6 +32,7 @@ Or, if you installed it to "/usr/bin", remove the script from the binaries direc
     Fixed a few lines and Nudo now actually uses Root's files.
     Created a README.MD.
 ## Queue
+    Come up with a way to dynamically chmod and chown files and directories.
     Clean up code and comment.
     Add more thorough information within CLI.
     Brainstorm something!
