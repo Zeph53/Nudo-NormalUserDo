@@ -1,18 +1,8 @@
-#!/bin/bash
-#
-## A script to launch a program as a normal user
-#
-## Environment variables
-#
-## Run command as a normal user instead of root, while still using root's files
-if [[ $@ ]]; then
-    if [ "`id -u`" -eq 0 ]; then 
-        adduser --no-create-home --home /root --gecos --disabled-password --disabled-login "nudo"
-    else
-        printf "Why bother running as a normal user when you are one?\n" 
-    fi 
-        sudo --user "nudo" $@
-        userdel --force "nudo" ; printf "Deleted nudo\n"
-else
-    printf "ADD A PROGRAM AS ARGUMENT\nFor example: $ nudo.bash /home/user/scripts/a-script.sh\n"
-fi
+github forcing the use of 2fa now. i don't own a cellphone and i won't be buying one just to create free stuff.
+i won't be relying on third party password managers, or less-than-functional authentication apps either.
+
+it was an interesting run on gitHub for like 7 years. 
+not a single comment, reaction, issue report, star, feedback of any kind..
+still tried sending things out there..
+
+if i can't access any of the stuff that i've made due to github's forcing of 2fa, then none of you can either.
